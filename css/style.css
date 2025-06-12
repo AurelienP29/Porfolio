@@ -10,6 +10,17 @@
     margin-top: auto;
 }
 
+.home main.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .welcome {
+    text-align: center;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -153,4 +164,16 @@ figcaption {
     font-size:13px;
     color:#aaa;
     margin-bottom:0;
+}
+
+.lien-bleu,
+.lien-bleu:visited,
+.lien-bleu:active {
+    color: #0099ff !important;
+    text-decoration: underline !important;
+}
+
+.lien-bleu:hover {
+    color: #33cfff !important;
+    text-decoration: underline !important;
 }
