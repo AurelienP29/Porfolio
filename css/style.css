@@ -1,0 +1,156 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.home main.container {
+    flex: 1;
+}
+.home .footer-basic {
+    margin-top: auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at top left, #0f0c29, #302b63, #24243e);
+    color: #f0f0f0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #c3a5ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff79c6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 120px auto 60px auto;
+    padding: 1em;
+}
+
+.welcome h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #d4bfff;
+}
+
+.trace {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.trace-content.left {
+    flex: 1 1 45%;
+    order: 1;
+}
+
+.trace-text {
+    flex: 1 1 50%;
+    order: 2;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: #cccccc;
+}
+
+.footer-basic {
+    padding:40px 0;
+
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.footer-basic a {
+    color: #c3a5ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-basic a:hover {
+    color: #ff79c6;
+}
+
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+
+.footer-basic li {
+    padding:0 10px;
+}
+
+.footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity:1;
+}
+
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+    opacity:0.9;
+}
+
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
